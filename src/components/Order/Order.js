@@ -11,13 +11,6 @@ const order = (props) => {
 
   const ingOutput = ingredients.map(i => {
     return <span 
-      style={{
-        textTransform: 'capitalize',
-        display: 'inline-block',
-        margin: '0 8px',
-        border: '1px solid #ccc',
-        padding: '5px'
-      }}
       key={i.name}>
       {i.name} ({i.amount})
     </span>
